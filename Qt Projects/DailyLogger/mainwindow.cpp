@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->dateTimeWidget = new dateTime();
+    ui->headerWidgetLayout->addWidget(dateTimeWidget);
 }
 
 MainWindow::~MainWindow()
