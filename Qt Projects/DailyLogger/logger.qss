@@ -1,0 +1,449 @@
+/*Copyright (c) DevSec Studio. All rights reserved.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*Copyright (c) DevSec Studio. All rights reserved.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*-----QWidget-----*/
+QWidget
+{
+        background-color: black;
+        color: white;
+        border-color: #000000;
+}
+
+QPushButton[header = "true"]
+{
+    font: 14pt "Bahnschrift";
+    color: #000000;
+    border: 5px solid #B8B8B8;
+    border-radius: 10px;
+}
+
+/*-----QLabel-----*/
+QLabel
+{
+        background-color: black;
+        color: white;
+        font: 14pt "Bahnschrift";
+        border-color: #000000;
+        border-radius: 2px
+}
+
+QLabel[status = "true"]
+{
+        background-color: #084066;
+        color: #D6EAF8;
+        font: 14pt "Bahnschrift";
+        border-color: #000000;
+        border-radius: 5px
+}
+
+QLabel[header= "true"]
+{
+        background-color: #084066;
+        color: #D6EAF8;
+        font: 14pt "Bahnschrift";
+        border-color: #000000;
+        border-radius: 5px
+}
+
+/*-----QToolTip-----*/
+QToolTip
+{
+        background-color: #282936;
+        color: #fff;
+        border: 1px solid #282936;
+        font-weight: bold;
+
+}
+
+/*-----QToolButton-----*/
+
+QPushButton[auxOpStop = "true"]
+{
+    font: 14pt "Bahnschrift";
+    color: #ffffff;
+    background-color: #ff0000;
+    border:5px solid #646464;
+    border-radius: 35px;
+}
+
+QPushButton[auxOpStop = "true"]::pressed
+{
+    font: 14pt "Bahnschrift";
+    border:5px solid #646464;
+    border-radius: 35px;
+}
+
+QPushButton[auxOp = "true"]
+{
+    font: 14pt "Bahnschrift";
+    border:5px solid #646464;
+    border-radius: 35px;
+}
+
+QPushButton[auxOp = "true"]::pressed
+{
+    font: 14pt "Bahnschrift";
+    border:5px solid #646464;
+    border-radius: 35px;
+}
+
+QPushButton[settingsBtn = "true"]
+{
+    background-color: #DDDDDD;
+    font: 14pt "Bahnschrift";
+    border:5px solid #646464;
+    border-radius: 35px;
+}
+
+QPushButton
+{
+        background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #F5F5F5, stop: 0.1 #A6AAAD, stop: 0.5 #C2C2C2, stop: 0.9 #A6A7E1);
+        color: #000000;
+        font: 16pt "Bahnschrift";s
+        font-weight: bold;
+        border:5px solid #646464;
+        border-radius: 35px;
+}
+
+QPushButton::pressed
+{
+        background-color: #3498DB;
+        border-radius: 35px;
+}
+
+QPushButton::checked
+{
+        background-color: #3498DB;
+        font-weight: bold;
+        text-decoration: underline;
+        border-radius: 35px;
+}
+
+/*-----QToolButton-----*/
+QToolButton
+{
+        background-color: #ffc80b;
+        color: #000000;
+        font-weight: bold;
+        border: 0px solid;
+        border-radius: 2px;
+}
+
+QToolButton::hover
+{
+        background-color: #ffe152;
+}
+
+QToolButton::pressed
+{
+        background-color: #e5c010;
+
+}
+
+QToolButton::checked
+{
+        background-color: #e5c010;
+
+}
+
+/*-----QLineEdit-----*/
+QLineEdit
+{
+        background-color: white;
+        color: #000000;
+        font-weight: bold;
+        font: 14pt "Bahnschrift";
+        padding: 3px;
+        border: 0px solid;
+        border-radius: 2px;
+        selection-background-color: #0949ff;
+
+}
+
+QLineEdit[login = "true"]
+{
+        background-color: white;
+        color: #000000;
+        font-weight: bold;
+        font: 12pt "Bahnschrift";
+        padding: 3px;
+        border: 0px solid;
+        border-radius: 2px;
+        selection-background-color: #0949ff;
+
+}
+
+QLineEdit::focus
+{
+        padding: 3px;
+        border: 1px solid #0949ff;
+        border-radius: 2px;
+}
+
+/*-----QTextEdit-----*/
+/*QTextEdit
+{
+        font: 14pt "Bahnschrift";
+        background-color: white;
+}*/
+
+QTextEdit,
+QTextEdit:focus,
+QTextEdit:selected {
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  border-radius: 0;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 5px 4px 4px 4px;
+}
+QTextEdit:focus {
+  border: none;
+  border-radius: 0;
+  background: #FFFFFF;
+  border-bottom: 2px solid #42A5F5;
+  color: #000000;
+  padding: 5px 4px 4px 4px;
+}
+QTextEdit:disabled {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #999999;
+  background: #999999;
+  color: #000000;
+  padding: 5px 4px 4px 4px;
+}
+
+
+/*-----QListView-----*/
+QListView
+{
+        background-color: #3a3a4e;
+        color: #fff;
+        border: 0px solid;
+        border-radius: 2px;
+        font-weight: bold;
+
+}
+
+QListView::item
+{
+    padding: 5px;
+
+}
+
+QListView::item:selected
+{
+    border: 1px solid #ffc80b;
+    border: none;
+    color: #000;
+}
+
+QListView::item:selected:!active
+{
+    background-color: #ffc80b;
+    border: none;
+    color: #000;
+
+}
+
+QListView::item:selected:active
+{
+    background-color: #ffc80b;
+    border: none;
+    color: #000;
+
+}
+
+
+QListView::item:hover
+{
+    background-color: #282936;
+    border: none;
+
+}
+
+
+/*-----QScrollBar-----*/
+QScrollBar:vertical
+{
+   border: none;
+   width: 45px;
+   color: #061E8B;
+}
+
+
+QScrollBar:horizontal
+{
+   border: none;
+   height: 10px;
+
+}
+
+
+QScrollBar::handle:vertical,
+QScrollBar::handle:horizontal
+{
+   border: none;
+   border-radius : 0px;
+   background-color: #084066;
+   min-height: 80px;
+   width : 12px;
+
+}
+
+QScrollBar::handle:vertical:hover,
+QScrollBar::handle:horizontal:hover
+{
+   background-color: #3498DB;
+
+}
+
+
+QScrollBar::add-line:vertical,
+QScrollBar::add-line:horizontal
+{
+   border: none;
+   background: transparent;
+   height: 0px;
+   subcontrol-position: bottom;
+   subcontrol-origin: margin;
+
+}
+
+
+QScrollBar::add-line:vertical:hover,
+QScrollBar::add-line:horizontal:hover
+{
+   background-color: transparent;
+
+}
+
+
+QScrollBar::add-line:vertical:pressed,
+QScrollBar::add-line:horizontal:pressed
+{
+   background-color: #3f3f3f;
+
+}
+
+
+QScrollBar::sub-line:vertical,
+QScrollBar::sub-line:horizontal
+{
+   border: none;
+   background: transparent;
+   height: 0px;
+
+}
+
+
+QScrollBar::sub-line:vertical:hover,
+QScrollBar::sub-line:horizontal:hover
+{
+   background-color: transparent;
+
+}
+
+
+QScrollBar::sub-line:vertical:pressed,
+QScrollBar::sub-line:horizontal:pressed
+{
+   background-color: #3f3f3f;
+
+}
+
+
+QScrollBar::up-arrow:vertical,
+QScrollBar::up-arrow:horizontal
+{
+   width: 0px;
+   height: 0px;
+   background: transparent;
+
+}
+
+
+QScrollBar::down-arrow:vertical,
+QScrollBar::down-arrow:horizontal
+{
+   width: 0px;
+   height: 0px;
+   background: transparent;
+
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical,
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{
+   background-color: white;
+
+}
+
+QComboBox
+{
+    font: 14pt "Bahnschrift";
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    selection-background-color: #111;
+    selection-color: yellow;
+    color: white;
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #565656, stop: 0.1 #525252, stop: 0.5 #4e4e4e, stop: 0.9 #4a4a4a, stop: 1 #464646);
+    border-style: solid;
+    border: 1px solid #1e1e1e;
+    border-radius: 5;
+    padding: 1px 0px 1px 20px;
+}
+
+QTableWidget[log = "true"]
+{
+        background-color: #D7D7D7;
+        font: 12pt "Bahnschrift";
+        color: black;
+        border-radius: 8px;
+}
+
+
+
+
