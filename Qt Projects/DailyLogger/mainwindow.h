@@ -5,6 +5,7 @@
 #include <QTimer>
 #include <QDebug>
 #include <QList>
+#include <QTableWidget>
 #include "datetime.h"
 
 QT_BEGIN_NAMESPACE
@@ -18,6 +19,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void setUpLogTable();
 
 private:
     Ui::MainWindow *ui;
